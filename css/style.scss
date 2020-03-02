@@ -1,0 +1,470 @@
+html    {
+    max-width: 1002px;
+    background: #EBEBEB;
+    font-family: 'Fira Sans', ;
+    max-width: 1002px;
+    margin: auto;
+    border: 0px;
+}
+
+body    {
+    position: absolute;
+    top: -10px;
+}
+.firstbox   {
+
+    display: grid;
+    grid-template-columns: repeat(2, 501px );
+    grid-template-rows:   272px;
+    grid-template-areas:
+    "blue  orange"
+    "blue yellow";
+
+    min-width: 100%;
+    
+}
+
+.blue   {
+    background: #C7DDEA;
+    background-image: url("../pics/family.png");
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: left 220px bottom;
+    grid-area: blue;
+    height: 544px;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    
+}
+
+.orange {
+    position: relative;
+    background: #F17949;
+    grid-area: orange;
+    height: 272px;
+
+}
+
+.yellow {
+    position: relative;
+    grid-area: yellow;
+    background: #FAB131;
+    height: 272px;
+}
+
+.bigtext    {
+    position: absolute;
+    letter-spacing: -0.02em;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    width: 314px;
+    top: 26px;
+    left: 90px;
+    height: 101px;
+    font-family: 'Frank Ruhl Libre', ;
+}
+
+.text1   {
+    position: absolute;
+    width: 314px;
+    top: 164px;
+    left: 90px;
+    height: 101px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.white  {
+    color: white;
+}
+
+.firstbutton    {
+    position: absolute;
+    width: 101px;
+    left: 90px;
+    top: 350px;
+}
+
+.button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+    background-color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    &:hover {
+        transform: scale(1.2);
+            }
+}
+
+.whitetext   {
+    position: absolute;
+    left: 185px;
+    top: 100px;
+    
+    color: white;
+    width: 250px;
+    height: 41px;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    letter-spacing: -0.02em;
+
+}
+
+.blacktext  {
+    position: absolute;
+    width: 250px;
+    height: 17px;
+    left: 190px;
+    top: 100px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.menu   {
+    display: inline-block;
+    padding: 30px;
+    max-width: 1002px;
+  
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-decoration: none;
+
+    transition: 0.5s;
+    &:hover {
+        transform: scale(1.2);
+            }
+
+}
+
+.center {
+    text-align: center;
+
+}
+
+.wrapper    {
+    background: linear-gradient(to bottom, #a9a19e 0%,#a9a19e 50%,#000000 50%,#fab131 50%,#fab131 100%);
+    position: relative; 
+
+    width: 1002px;
+    height: 1292px;
+}
+
+.personal   {
+    position: absolute;
+    width: 314px;
+    height: 140px;
+    left: 100px;
+    top: 80px;
+
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+}
+
+.longlorem  {
+    position: absolute;
+    width: 280px;
+    height: 237px;
+    left: 600px;
+    top: 105px;
+}
+
+.secondbutton   {
+    position: absolute;
+    width: 101px;
+    left: 100px;
+    top: 320px;
+    
+}
+
+.middle {
+    position: relative;
+
+}
+
+.card1  {
+    position: absolute;
+    width: 256px;
+    height: 350px;
+    left: 80px;
+    top: 490px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.card2  {
+    position: absolute;
+    width: 256px;
+    height: 350px;
+    left: 375px;
+    top: 490px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.card3  {
+    position: absolute;
+    width: 256px;
+    height: 350px;
+    left: 675px;
+    top: 490px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.description   {
+
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.title  {
+    position: absolute;
+    width: 198px;
+    height: 13px;
+    left: 90px;
+    top: 140px;
+}
+
+.textpos    {
+    position: absolute;
+    width: 214px;
+    height: 108px;
+    left: 25px;
+    top: 170px;
+}
+
+.boxb    {
+    background-color: #C7DDEA;
+
+    position: absolute;
+    width: 236px;
+    height: 150px;
+    left: 10px;
+    top: -45px;
+
+    border-radius: 4px;
+}
+
+.boxy    {
+    background-color: #FAB131;
+
+    position: absolute;
+    width: 236px;
+    height: 150px;
+    left: 10px;
+    top: -45px;
+
+    border-radius: 4px;
+}
+
+.boxo    {
+    background-color: #F17949;
+
+    position: absolute;
+    width: 236px;
+    height: 150px;
+    left: 10px;
+    top: -45px;
+
+    border-radius: 4px;
+}
+
+.backgroundpic1  {
+    position: absolute;
+    width: 213px;
+    height: 141px;
+    background-image: url(../pics/child.png);
+    background-size: 42%;
+    background-repeat: no-repeat;
+    transform: translate(46px, -52px);
+}
+
+.backgroundpic2  {
+    position: absolute;
+    width: 213px;
+    height: 141px;
+    background-image: url(../pics/adult.png);
+    background-size: 42%;
+    background-repeat: no-repeat;
+    transform: translate(46px, -52px);
+}
+
+.backgroundpic3  {
+    position: absolute;
+    width: 213px;
+    height: 141px;
+    background-image: url(../pics/old.png);
+    background-size: 42%;
+    background-repeat: no-repeat;
+    transform: translate(46px, -52px);
+}
+
+.about  {
+    position: absolute;
+    width: 314px;
+    height: 101px;
+    left: 425px;
+    top: 780px;
+
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.aboutext   {
+    position: absolute;
+    width: 442px;
+    height: 280px;
+    left: 290px;
+    top: 975px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.endgrid    {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1002px;
+
+}
+
+.box    {
+    position: relative;
+    flex-grow: 1;
+    width: 334px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.boxtext    {
+    position: absolute;
+    max-width: 200px;
+    top: 130px;
+    left: 60px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 20px;
+    
+}
+
+.specialflake1  {
+    position: absolute;
+    max-width: 200px;
+    top: 80px;
+    left: 60px;
+
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    
+}
+
+.specialflake2   {
+    position: absolute;
+    max-width: 200px;
+    top: 140px;
+    left: 130px;
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.bwhite {
+    background-color: white;
+}
+
+.bblue  {
+    background-color: #C7DDEA;
+}
+
+.borange    {
+    background-color: #F17949;
+}
+
+@media screen and (max-width: 700px) {
+
+    .firstbox{
+    grid-template-columns: repeat;
+    grid-template-rows:auto auto auto;
+    grid-template-areas: 
+    "blue"
+    "yellow"
+    "orange";
+    }
+}
