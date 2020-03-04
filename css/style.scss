@@ -615,7 +615,7 @@ body    {
 
 
 .mankid     {
-    background-image: url(/pics/man-and-child.png);
+    background-image: url(../pics/man-and-child.png);
     position: absolute;
     width: 173px;
     height: 461px;
@@ -781,6 +781,8 @@ body    {
     position: absolute;
     top: 160px;
     left: 466px;
+    background-repeat: no-repeat;
+
 }
 
 .footergrey     {
